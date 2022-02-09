@@ -1,3 +1,5 @@
+import './navbar.css'
+
 const NavBar = (props) => (
     <div className="nav-wrapper">
         <button type="button" onClick={props.deleteSelected} className="btn btn-danger">Delete Selected</button>

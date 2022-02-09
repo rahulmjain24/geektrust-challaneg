@@ -1,0 +1,11 @@
+
+  .nav-wrapper {
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 30px;
+    
+  }
+  
+  

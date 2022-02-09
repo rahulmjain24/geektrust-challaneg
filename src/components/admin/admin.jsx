@@ -116,7 +116,11 @@ class Admin extends React.Component {
                 selected.splice(selected.indexOf(user.id),1)
             })
             console.log(selected, mutatedData)
-            this.setState({ select: selected, userData:mutatedData})
+            this.setState({ select: selected, userData:[...mutatedData]})
+            console.log(this.state.pagination.length * 10 - this.state.userData.length)
+            if (this.state.pagination.length * 10 - this.state.userData.length >= 9) {
+                this.state.pagination.pop()
+            }
         }
 
         return (

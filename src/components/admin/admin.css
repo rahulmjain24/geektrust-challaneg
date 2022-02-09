@@ -79,41 +79,6 @@ table {
     }
   }
 
-  .input-wrapper {
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-
-  .input {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
- 
-
-  .nav-wrapper {
-    width: 70%;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    margin-top: 30px;
-    
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   /* general styling */
   body {
     font-family: "Open Sans", sans-serif;
